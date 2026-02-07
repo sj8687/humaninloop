@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*
+
+# Build output
+dist/
+build/
+
+# Caches & coverage
+.cache/
+coverage/
+cache/
+
+# AI / data artifacts
+chromadb/
+data/
+*.bin
+*.pt
+*.onnx
+
+# Logs & DB
+*.log
+*.db
