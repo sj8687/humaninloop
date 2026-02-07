@@ -165,7 +165,7 @@ async function main() {
         ? new Command({
             resume: {
               [interrupts?.[0]?.id]: {
-                decisions: [{ type: query === '1' ? 'approve' : 'reject' }],
+                decisions: [{ type: query === '1' ? 'approvee' : 'reject' }],
               },
             },
           })
